@@ -1,0 +1,17 @@
+1. A sample program is given below that calculated the factorial of a given numbers (using loop):
+
+ 
+ #include<iostream>
+using namespace std;
+int main()
+{
+    int i, f=1, num;
+    cout<<"Enter a number: ";
+    cin>>num;
+
+    for(i=1; i<=num; i++)
+        f=f*i;
+
+    cout<<"The factorial of " << num << " is: " <<f;
+    }
+
